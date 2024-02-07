@@ -1,6 +1,7 @@
 version: '3.7'
 services:
   react:
+    container_name: node
     build: 
       args:
         - NODE_VER=lts
