@@ -35,7 +35,6 @@ export const ToDoApp = () => {
             }
             return todo;
         });
-        console.log(newToDos)
         setToDos(newToDos);
     }
 
