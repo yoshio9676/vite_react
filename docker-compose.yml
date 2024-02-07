@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  react:
+    build: 
+      args:
+        - NODE_VER=lts
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ./vite-project:/home/node/app
+    ports:
+      - 5173:5173
