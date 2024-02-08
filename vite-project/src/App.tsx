@@ -1,4 +1,4 @@
-import ToDoApp from './components/ToDoApp';
+import ToDoApp from './components/todo_app/ToDoApp';
 
 function App() {
   return (
